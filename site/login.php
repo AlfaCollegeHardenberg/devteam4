@@ -13,7 +13,7 @@
     </header>
     
     <div id="login">
-        <h1>Login mijn actie.</h1>
+        <h1>Log in mijn actie.</h1>
         <hr>
         <p>Welkom. volgt u een opleiding bij het alfa-college of werkt u bij het afla-college? Log hier in op de digitale voorzieningen van het alfa-college.</p>
         <hr>
@@ -34,7 +34,7 @@
     </div>
     
     <footer>
-        <img class="footer" src="footer.png">
+        <img class="footer" src="footer.png" height="50%">
     </footer>
 </body>
 </html>
