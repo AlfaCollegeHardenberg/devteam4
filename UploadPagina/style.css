@@ -83,3 +83,15 @@ body {
 .programmas {
     color: #002d72;
 }
+h1 {
+	margin-left: 5%;
+	font-family: 'Roboto-italic', sans-serif;
+	padding-top: 20px;
+	font-size: 22px;
+}
+.upload {
+	margin-left: 5%;
+	background-color:grey;
+	width: 90%;
+	height: 500px;;
+}
