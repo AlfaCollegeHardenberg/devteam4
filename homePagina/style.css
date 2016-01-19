@@ -1,7 +1,4 @@
-
-
-
-
+/* STANDARD - STYLES */
 header {
     border-bottom: 2px solid #06244b;
     height: 80px;
@@ -13,9 +10,18 @@ body {
     margin: 0px;
 }
 
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+}
 
 
 
+
+/* HEADER - STYLES */
 
 .rareVormenBoven {
     position: absolute;
@@ -98,6 +104,11 @@ body {
     font-family: 'Roboto-bold', sans-serif !important;
 }
 
+
+
+
+/* CONTENT - STYLES */
+
 #slider_afbeelding img {
     width: 100%;
     display: inline-block;
@@ -106,14 +117,92 @@ body {
 #slider_afbeelding {
 }
 
+#slider_tekst {
+    position: absolute;
+    background-color: #FFF;
+}
+
+#slider_tekst h1 {
+    margin: 0px;
+}
+
 .opleiding {
     padding: 10px;
-    background-color: #93b920;
+    background-color: #002d72;
     text-decoration: none;
-    font-size: 21px;
+    font-size: 18px;
     font-family: 'Roboto-bold', sans-serif !important;
     color: #FFF;
     margin-left: 30px;
     margin-top: -25px;
+    position: absolute;
+}
+
+.informatie {
+    padding: 5px 10px 5px 10px;
+    background-color: #4468a3;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Roboto-bold', sans-serif !important;
+    color: #FFF;
+    margin-left: 276px;
+    margin-top: -17px;
+    position: absolute;
+}
+
+.informatie:hover, .lesmaterialen:hover, .stage:hover, .roosters:hover {
+    padding: 5px 10px 30px 10px;
+    transition: .5s;
+}
+
+.informatie:hover {
+    background-color: #93b920;
+}
+
+.lesmaterialen:hover {
+    background-color: #b54286;
+}
+
+.stage:hover {
+    background-color: #d90808;
+}
+
+.roosters:hover {
+    background-color: #ee8a06;
+}
+
+.lesmaterialen {
+    padding: 5px 10px 5px 10px;
+    background-color: #4468a3;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Roboto-bold', sans-serif !important;
+    color: #FFF;
+    margin-left: 380px;
+    margin-top: -17px;
+    position: absolute;
+}
+
+.stage {
+    padding: 5px 10px 5px 10px;
+    background-color: #4468a3;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Roboto-bold', sans-serif !important;
+    color: #FFF;
+    margin-left: 508px;
+    margin-top: -17px;
+    position: absolute;
+}
+
+.roosters {
+    padding: 5px 10px 5px 10px;
+    background-color: #4468a3;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Roboto-bold', sans-serif !important;
+    color: #FFF;
+    margin-left: 622px;
+    margin-top: -17px;
     position: absolute;
 }
