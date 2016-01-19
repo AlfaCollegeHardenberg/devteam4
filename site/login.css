@@ -50,8 +50,9 @@ a {
     color: orange;
 }
 .footer{
-    width: 99%;
+    width: 100%;
 	height: auto;
 	margin-top: -35px;
+	position: absolute;
 	padding: 0px;
 }
