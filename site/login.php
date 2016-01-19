@@ -13,7 +13,7 @@
     </header>
     
     <div id="login">
-        <h1>Log in mijn actie.</h1>
+        <h1>Inloggen</h1>
         <hr>
         <p>Welkom. volgt u een opleiding bij het alfa-college of werkt u bij het afla-college? Log hier in op de digitale voorzieningen van het alfa-college.</p>
         <hr>
