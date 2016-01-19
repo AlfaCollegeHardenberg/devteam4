@@ -1,0 +1,54 @@
+body{
+    max-width: 100%;
+}
+
+.logo{
+    margin: 2%;
+}
+
+#login{
+    padding: 5px;
+    width: 30%;
+    height: auto;
+    margin: auto;
+}
+
+.inlognaam{
+    margin-left: 14px;
+    margin-bottom: 2%;
+    width: 73%;
+    margin-top: 2%;
+}
+
+.wachtwoord{
+    width: 73%;
+    margin-bottom: 1%;
+    margin-left: 3px;
+}
+
+.login-button{
+    margin-left: 85%;
+}
+
+h1{
+    font-family: sans-serif;
+    color: #0B3B6C;
+}
+
+p{
+    font-family: sans-serif;
+    color: #508AB6;
+    font-size: 12px;
+}
+li {
+ font-style: none;
+    
+}
+a {
+    color: orange;
+}
+
+.footer{
+    width: 100%;
+    margin-top: -85px;
+}
