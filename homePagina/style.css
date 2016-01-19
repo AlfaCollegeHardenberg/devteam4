@@ -19,14 +19,50 @@ body {
     margin-top: 20px;
     width: auto;
     height: auto;
+    display: inline-block;
 }
 
 #nav_header {
     width: auto;
     height: auto;
+    display: inline-block;
+    position: absolute;
+    top: 75px;
+    left: 250px;
 }
 
 #nav_header ul li {
     display: inline;
     list-style-type: none;
+    margin-left: 40px;
+}
+
+#nav_header ul {
+    margin: 0;
+}
+
+#nav_header ul li:first-of-type {
+    margin-left: 0;
+}
+
+#nav_header ul li a {
+    font-family: Roboto;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.home {
+    color: #d90808;
+}
+
+.wegwijzer {
+    color: #b54286;
+}
+
+.mijnSchool {
+    color: #ee8a06;
+}
+
+.programmas {
+    color: #002d72;
 }
