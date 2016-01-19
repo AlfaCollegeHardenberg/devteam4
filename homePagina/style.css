@@ -104,16 +104,16 @@ body {
 }
 
 #slider_afbeelding {
-    display: inline-block;
 }
 
 .opleiding {
     padding: 10px;
     background-color: #93b920;
     text-decoration: none;
+    font-size: 21px;
     font-family: 'Roboto-bold', sans-serif !important;
     color: #FFF;
-    margin-left: 20px;
-    margin-top: -20px;
-    display: inline-block;
+    margin-left: 30px;
+    margin-top: -25px;
+    position: absolute;
 }
