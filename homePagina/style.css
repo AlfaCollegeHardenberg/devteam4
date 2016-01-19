@@ -20,7 +20,7 @@ body {
 .rareVormenBoven {
     position: absolute;
     top: -10px;
-    width: 100%;
+    width: 90%;
     height: 60px;
 }
 
@@ -60,7 +60,6 @@ body {
     font-size: 21px;
     padding: 5px 20px 5px 20px;
     font-family: 'Roboto-italic', sans-serif;
-    font-weight: 300;
 }
 
 #nav_header ul li a:hover {
@@ -82,4 +81,39 @@ body {
 
 .programmas {
     color: #002d72;
+}
+
+#login_gegevens a {
+    text-decoration: none;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    right:10px;
+    top: 10px;
+}
+
+.uitloggen {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-family: 'Roboto-bold', sans-serif !important;
+}
+
+#slider_afbeelding img {
+    width: 100%;
+    display: inline-block;
+}
+
+#slider_afbeelding {
+    display: inline-block;
+}
+
+.opleiding {
+    padding: 10px;
+    background-color: #93b920;
+    text-decoration: none;
+    font-family: 'Roboto-bold', sans-serif !important;
+    color: #FFF;
+    margin-left: 20px;
+    margin-top: -20px;
+    display: inline-block;
 }
