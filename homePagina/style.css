@@ -8,3 +8,25 @@ header {
 body {
     margin: 0px;
 }
+
+
+
+
+
+
+
+#logo_header {
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+}
+
+#nav_header {
+    width: auto;
+    height: auto;
+}
+
+#nav_header ul li {
+    display: inline;
+    list-style-type: none;
+}
