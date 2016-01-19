@@ -1,8 +1,12 @@
+
+
+
+
 header {
     border-bottom: 2px solid #06244b;
-    height: 100px;
+    height: 80px;
     width: 100%;
-    padding: 10px 10px 0 10px;
+    padding-top: 10px;
 }
 
 body {
@@ -13,13 +17,18 @@ body {
 
 
 
-
+.rareVormenBoven {
+    position: absolute;
+    top: -10px;
+    width: 100%;
+}
 
 #logo_header {
-    margin-top: 20px;
+    margin-top: 10px;
     width: auto;
     height: auto;
     display: inline-block;
+    margin-left: 50px;
 }
 
 #nav_header {
@@ -27,14 +36,13 @@ body {
     height: auto;
     display: inline-block;
     position: absolute;
-    top: 75px;
+    top: 61px;
     left: 250px;
 }
 
 #nav_header ul li {
     display: inline;
     list-style-type: none;
-    margin-left: 40px;
 }
 
 #nav_header ul {
@@ -49,6 +57,14 @@ body {
     font-family: Roboto;
     text-decoration: none;
     font-size: 21px;
+    padding: 5px 20px 5px 20px;
+    font-family: 'Roboto-italic', sans-serif;
+    font-weight: 300;
+}
+
+#nav_header ul li a:hover {
+    background-color: #06244b;
+    color: #FFF;
 }
 
 .home {
