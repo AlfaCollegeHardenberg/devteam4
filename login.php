@@ -1,6 +1,6 @@
 <!-- verbinding maken met db-connect en kijken of er iemand is ingelogd-->
 <?php 
-    require_once "login-pagina/db_connect.php";
+    require_once "login-pagina/db-connect.php";
 
 if (($_SESSION['loggedin'] == true)){
 		echo "<a href='login-pagina/log-out.php'> Uitloggen </a> ";
