@@ -1,9 +1,9 @@
 <!-- verbinding maken met db-connect en kijken of er iemand is ingelogd-->
 <?php 
-    require_once "login_pagina/db-connect.php";
+    require_once "db-connect.php";
 
 if (($_SESSION['loggedin'] == true)){
-		echo "<a href='login_pagina/log-out.php'> Uitloggen </a> ";
+		echo "<a href='log-out.php'> Uitloggen </a> ";
 } else {
     header("Location: login.php");
 }
@@ -16,7 +16,7 @@ if (($_SESSION['loggedin'] == true)){
 <head>
     <meta charset="UTF-8">
     <title>Login pagina</title>
-    <link rel="stylesheet" href="login_pagina/login.css">
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
       
@@ -24,7 +24,7 @@ if (($_SESSION['loggedin'] == true)){
    
     <header>
        <center>
-        <img class="logo" src="logo_pagina/logo.jpg" height="10%" width="30%">
+        <img class="logo" src="logo.jpg" height="10%" width="30%">
         </center>
     </header>
                 
@@ -38,7 +38,7 @@ if (($_SESSION['loggedin'] == true)){
 
 <!-- login verlden -->
 
-        <form action="login_pagina/inlog-check.php" method="post">
+        <form action="inlog-check.php" method="post">
         <p>
         Inlognaam: <input class="inlognaam" type="text" name="user"><br>
         Wachtwoord: <input class="wachtwoord" type="password" name="password"><br>
