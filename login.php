@@ -4,8 +4,6 @@
 
 if (($_SESSION['loggedin'] == true)){
 		echo "<a href='log-out.php'> Uitloggen </a> ";
-} else {
-    header("Location: login.php");
 }
 ?>
 
