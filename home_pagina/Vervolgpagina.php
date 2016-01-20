@@ -25,7 +25,7 @@
     </div>
     <div id="login_gegevens">
        <?php
-        echo "<a>Er is iemand ingelogd met de gebruikersnaam " . $_SESSION['username'];
+        echo "<a> Ingelogd als, " . $_SESSION['username'];
 		echo "</a>";
 		echo "<a class='uitloggen' href='log-out.php'> Uitloggen </a> ";
         ?>
