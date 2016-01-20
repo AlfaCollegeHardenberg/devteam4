@@ -17,7 +17,7 @@
     </div>
     <div id="nav_header">
         <ul>
-            <li><a class="home" href="#">Home</a></li>
+            <li><a class="home" href="Vervolgpagina.php">Home</a></li>
             <li><a class="wegwijzer" href="#">Wegwijzer</a></li>
             <li><a class="mijnSchool" href="#">Mijn school</a></li>
             <li><a class="programmas" href="#">Programma's</a></li>
@@ -32,23 +32,13 @@
     </div>
 </header>
 
-<div id="slider_afbeelding">
-    <div id="slider_tekst">
-        <h1>Welkom</h1>
-            <p>De nieuwe Actie van het Alfa College is online! </br>
-               Kijk gerust rond naar alle vernieuwingen!
-           </p>
-    </div>
-<img src="Afbeeldingen/sliderAfbeelding.png">
-</div>
 
-<a class="opleiding" href="#">Applicatie ontwikkelaar</a>
-<a class="informatie" href="#">Informatie</a>
-<a class="lesmaterialen" href="#">Lesmaterialen</a>
-<a class="stage" href="#">Stage (BPV)</a>
-<a class="roosters" href="rooster.php">Roosters</a>
-<a class="upload" href="uploadpagina.php">Bestanden uploaden</a>
-
+<form>
+        Gewijzigd door: <input class="inlognaam" type="text" name="author"><br>
+        Datum: <input class="wachtwoord" type="password" name="date"><br>
+        <button>Bestand uploaden</button><br>
+        <button type="submit" value="Aanmelden" class="login-button">Uploaden</button>
+</form>
 
 
 <footer>
