@@ -3,7 +3,7 @@
     require_once "connect.php";
 
 if (($_SESSION['loggedin'] == true)){
-		echo "<a href='log-out.php'> Uitloggen </a> ";
+		echo "<a href='login-pagina/log-out.php'> Uitloggen </a> ";
 } else {
     header("Location: login.php");
 }
@@ -16,7 +16,7 @@ if (($_SESSION['loggedin'] == true)){
 <head>
     <meta charset="UTF-8">
     <title>Login pagina</title>
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="login-pagina/login.css">
 </head>
 <body>
       
@@ -24,7 +24,7 @@ if (($_SESSION['loggedin'] == true)){
    
     <header>
        <center>
-        <img class="logo" src="Afbeeldingen/logo.jpg" height="10%" width="30%">
+        <img class="logo" src="logo-paginalogo.jpg" height="10%" width="30%">
         </center>
     </header>
                 
