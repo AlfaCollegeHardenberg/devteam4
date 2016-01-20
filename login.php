@@ -18,17 +18,17 @@ if (isset ($_SESSION['loggedin']) && $_SESSION['loggedin'] == true){
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
-      
+
 <!-- Header met het logo van de pagina -->
-   
+
     <header>
        <center>
-        <img class="logo" src="logo.jpg" height="10%" width="30%">
+        <img class="logo" src="logo.jpg" height="auto" width="350px">
         </center>
     </header>
-                
+
 <!-- Div met alle text en login velden -->
-    
+
     <div id="login">
         <h1>Log in mijn actie.</h1>
         <hr>
