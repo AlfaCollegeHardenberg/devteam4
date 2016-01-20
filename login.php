@@ -1,5 +1,6 @@
 <!-- verbinding maken met db-connect en kijken of er iemand is ingelogd-->
-<?php 
+<?php
+session_start();
     require_once "db-connect.php";
 
 if (($_SESSION['loggedin'] == true)){
