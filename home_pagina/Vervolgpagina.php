@@ -1,3 +1,6 @@
+<?php
+    require_once ("db-connect.php");
+?>   
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,8 +24,11 @@
         </ul>
     </div>
     <div id="login_gegevens">
-        <a href="#">Paciorkowski, Denis</a>
-        <a class="uitloggen" href="#">Uitloggen</a>
+       <?php
+        echo "<a>Er is iemand ingelogd met de gebruikersnaam " . $_SESSION['username'];
+		echo "</a>";
+		echo "<a class='uitloggen' href='log-out.php'> Uitloggen </a> ";
+        ?>
     </div>
 </header>
 
@@ -40,7 +46,7 @@
 <a class="informatie" href="#">Informatie</a>
 <a class="lesmaterialen" href="#">Lesmaterialen</a>
 <a class="stage" href="#">Stage (BPV)</a>
-<a class="roosters" href="#">Roosters</a>
+<a class="roosters" href="rooster.php">Roosters</a>
 
 
 
