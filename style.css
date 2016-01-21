@@ -125,7 +125,7 @@ h1, h2, h3, h4 {
 
 #slider_tekst h1 {
     margin: 0px;
-	
+
 }
 footer {
 
@@ -310,4 +310,23 @@ li ul li a {
 /*Display the dropdown on hover*/
 ul li a:hover + .hidden, .hidden:hover {
 	display: block;
+}
+
+.formulier {
+    width: 100%;
+    margin-left: 20px
+}
+
+.formulier h1 {
+    border-bottom: 1px solid red;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.formulier p {
+    margin: 0;
+}
+
+.text {
+    width: 30%;
 }
