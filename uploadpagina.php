@@ -35,10 +35,12 @@
 
 
 <form class="formulier"enctype="multipart/form-data" name="form" action="send-article.php" method="post">
-				<p>Naam:</p>
-			    <input type="text" name="post_naam" required>
-			    <p>Datum:</p>
-			    <input type="text" name="post_datum" required>
+	<h1> Gegevens </h1>
+				<p>Naam</p>
+			    <input class="text" type="text" name="post_naam" required>
+			    <p>Datum</p>
+			    <input class="text" type="text" name="post_datum" required>
+	<h1> Bestand uploaden </h1>
 			    <p>Bestand:</p>
 			    <input type="file" name="post_file">
 			    <br><br>
