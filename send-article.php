@@ -3,7 +3,7 @@
 
 $cleanData = array();
 foreach ($_POST as $key => $item){
-	$cleanData[$key] = mysql_real_escape_string($connect, $item);
+	$cleanData[$key] = mysql_real_escape_string($item, $connect);
 }
 
 $uploadedFile = $_FILES['post_file']['tmp_name'];
@@ -13,7 +13,7 @@ $uploadedFile = $_FILES['post_file']['tmp_name'];
 $query = "INSERT INTO lesmaterialen (auteur, datum, bestand)
 VALUES ('$cleanData[post_naam]', '$cleanData[post_datum]', '$newFile')";
 
-mysql_query($connect, $query);
+mysql_query($query, $connect);
 
 header("Location: Vervolgpagina.php");
 ?>
