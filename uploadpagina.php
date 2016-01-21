@@ -33,12 +33,16 @@
 </header>
 
 
-<form>
-        Gewijzigd door: <input class="inlognaam" type="text" name="author"><br>
-        Datum: <input class="wachtwoord" type="password" name="date"><br>
-        <button>Bestand uploaden</button><br>
-        <button type="submit" value="Aanmelden" class="login-button">Uploaden</button>
-</form>
+<form enctype="multipart/form-data" name="form" action="send-article.php" method="post">
+				<h3>Naam:</h3>
+			    <input type="text" name="post_naam" required>
+			    <h3>Datum:</h3>
+			    <input type="text" name="post_datum" required>
+			    <h3>Bestand: </h3>
+			    <input type="file" name="post_file">
+			    <br><br>
+			    <input type="submit" value="Artikel toevoegen">
+			</form>
 
 
 <footer>
