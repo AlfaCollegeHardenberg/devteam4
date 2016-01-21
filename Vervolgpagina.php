@@ -40,6 +40,7 @@
         </ul>
     </div>";
  ?>
+ <?php echo $nav; ?>
     <div id="login_gegevens">
        <?php
         echo "<a> Ingelogd als, " . $_SESSION['username'];
