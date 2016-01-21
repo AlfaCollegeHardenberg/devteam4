@@ -16,15 +16,14 @@
 <header>
         <img class="rareVormenBoven" src="Afbeeldingen/raareVormenBoven.png">
     <div id="logo_header">
-        <a href="Vervolgpagina.php"
+        <a href="Vervolgpagina.php">
             <img src="Afbeeldingen/actieLogo.png">
         </a>
     </div>
 <?php
     $nav = "<div id=\"nav_header\">
         <ul>
-            <li><a ".(($page == 'one') ? 'class="active"' : '')." class=\"home\" href=\"Vervolgpagina.php\">Home</a>/</li>
-            <li><a class=\"home\" href=\"#\">Home</a></li>
+            <li><a ".(($page == 'one') ? 'class="active"' : '')." class=\"home\" href=\"Vervolgpagina.php\">Home</a></li>
             <li><a class=\"wegwijzer\" href=\"#\">Wegwijzer</a>
 		<ul class=\"hidden\">
 			<li><a href=\"#\">Lesmaterialen</a></li>
