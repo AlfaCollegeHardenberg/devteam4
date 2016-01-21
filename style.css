@@ -1,7 +1,7 @@
 /* STANDARD - STYLES */
 header {
     border-bottom: 2px solid #06244b;
-    height: 80px;
+    height: 54px;
     width: 100%;
     padding-top: 10px;
 }
@@ -31,7 +31,7 @@ h1, h2, h3, h4 {
 }
 
 #logo_header {
-    margin-top: 10px;
+    margin-top: -6px;
     width: auto;
     height: auto;
     display: inline-block;
@@ -259,11 +259,9 @@ li {
 }
 /*Style for menu links*/
 li a {
-	margin-top: -19px;
+	margin-top: -2px;
 	display:block;
-	height: 50px;
 	text-align: center;
-	line-height: 50px;
 	color: #fff;
 	text-decoration: none;
 }
@@ -279,7 +277,6 @@ li:hover ul a {
 	color: #fff;
 	height: 40px;
 	text-align: left;
-	line-height: 40px;
 	width: 200px;
 background-color: #06244b;
 }
