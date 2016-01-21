@@ -54,7 +54,6 @@
     </div>
 <img src="Afbeeldingen/sliderAfbeelding.png">
 </div>
-
 <a class="opleiding" href="#">Applicatie ontwikkelaar</a>
 <a class="informatie" href="#">Informatie</a>
 <a class="lesmaterialen" href="#">Lesmaterialen</a>
@@ -62,9 +61,14 @@
 <a class="roosters" href="rooster.php">Roosters</a>
 <a class="upload" href="uploadpagina.php">Bestanden uploaden</a>
 
-
-
+<div class="inhoud">
+<br>
+<br>
+<center><p>Van alles wat</p></center>
+</div>
 <footer>
+	 <img src="Afbeeldingen/footer.png">
+	 <p>&copy;Devteam4</p>
 </footer>
 </body>
 </html>
