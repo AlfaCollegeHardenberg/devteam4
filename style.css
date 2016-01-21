@@ -278,6 +278,7 @@ li:hover ul a {
 	text-align: left;
 	width: 200px;
     background-color: #06244b;
+    margin: 0;
 }
 
 /*Hover state for dropdown links*/
@@ -287,7 +288,7 @@ li:hover ul a:hover {
 }
 /*Hide dropdown links until they are needed*/
 li ul {
-
+	display: none;
 }
 
 /*Make dropdown links vertical*/
