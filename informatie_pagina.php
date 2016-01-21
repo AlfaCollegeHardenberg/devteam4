@@ -14,7 +14,7 @@
 <header>
         <img class="rareVormenBoven" src="Afbeeldingen/raareVormenBoven.png">
     <div id="logo_header">
-        <a href="Vervolgpagina.php"
+        <a href="Vervolgpagina.php">
             <img src="Afbeeldingen/actieLogo.png">
         </a>
     </div>
