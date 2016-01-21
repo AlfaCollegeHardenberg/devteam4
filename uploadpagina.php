@@ -1,6 +1,7 @@
 <?php
     require_once ("db-connect.php");
-?>   
+    session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
