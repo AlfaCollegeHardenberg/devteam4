@@ -278,14 +278,13 @@ li:hover ul a {
 	text-align: left;
 	width: 200px;
     background-color: #06244b;
-    margin: 0;
-    margin-top: -20px;
+    margin-top: -19px;
 }
 
 /*Hover state for dropdown links*/
 li:hover ul a:hover {
  background-color: #4468a3;
- transition: 0.2s;
+ transition: 0.5s;
 }
 /*Hide dropdown links until they are needed*/
 li ul {
