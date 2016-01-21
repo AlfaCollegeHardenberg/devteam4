@@ -272,6 +272,11 @@ background-color: #06244b;
 color: white;
 }
 
+.active {
+    background-color: #06244b;
+    color: white;    
+}
+
 /*Style for dropdown links*/
 li:hover ul a {
 	color: #fff;

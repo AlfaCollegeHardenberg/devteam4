@@ -18,26 +18,26 @@
             <img src="Afbeeldingen/actieLogo.png">
         </a>
     </div>
-    <div id="nav_header">
+<?php
+    $nav = "<div id=\"nav_header\">
         <ul>
-            <li><a class="home" href="#">Home</a></li>
-            <li>
-			<a class="wegwijzer" href="#">Wegwijzer</a>
-				<ul class="hidden">
-					<li><a href="#">Lesmaterialen</a>
-					</li>
-					<li><a href="#">Roosters</a>
-					</li>
-				</ul>
+            <li><a ".(($page == 'one') ? 'class="active"' : '')." class=\"home\" href=\"Vervolgpagina.php\">Home</a>/</li>
+            <li><a class=\"home\" href=\"#\">Home</a></li>
+            <li><a class=\"wegwijzer\" href=\"#\">Wegwijzer</a>
+		<ul class=\"hidden\">
+			<li><a href=\"#\">Lesmaterialen</a></li>
+			<li><a href=\"#\">Roosters</a></li>
+		</ul>
 			</li>
-            <li><a class="mijnSchool" href="#">Mijn school</a></li>
-            <li><a class="programmas" href="#">Programma's</a>
-								<ul class="hidden">
-					<li><a href="#">Koken met Denis</a></li>
-				</ul>
+            <li><a class=\"mijnSchool\" href=\"#\">Mijn school</a></li>
+            <li><a class=\"programmas\" href=\"#\">Programma's</a>
+		<ul class=\"hidden\">
+			<li><a href=\"#\">Koken met Denis</a></li>
+		</ul>
 			</li>
         </ul>
-    </div>
+    </div>";
+ ?>
     <div id="login_gegevens">
        <?php
         echo "<a> Ingelogd als, " . $_SESSION['username'];
