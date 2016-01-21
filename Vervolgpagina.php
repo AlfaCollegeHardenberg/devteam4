@@ -21,12 +21,18 @@
             <li>
 			<a class="wegwijzer" href="#">Wegwijzer</a>
 				<ul class="hidden">
-					<li><a href="#">Who We Are</a></li>
-					<li><a href="#">What We Do</a></li>
+					<li><a href="#">Lesmaterialen</a>
+					</li>
+					<li><a href="#">Roosters</a>
+					</li>
 				</ul>
 			</li>
             <li><a class="mijnSchool" href="#">Mijn school</a></li>
-            <li><a class="programmas" href="#">Programma's</a></li>
+            <li><a class="programmas" href="#">Programma's</a>
+								<ul class="hidden">
+					<li><a href="#">Koken met Denis</a></li>
+				</ul>
+			</li>
         </ul>
     </div>
     <div id="login_gegevens">
