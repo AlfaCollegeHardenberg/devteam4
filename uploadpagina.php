@@ -34,12 +34,12 @@
 </header>
 
 
-<form enctype="multipart/form-data" name="form" action="send-article.php" method="post">
-				<h3>Naam:</h3>
+<form class="formulier"enctype="multipart/form-data" name="form" action="send-article.php" method="post">
+				<p>Naam:</p>
 			    <input type="text" name="post_naam" required>
-			    <h3>Datum:</h3>
+			    <p>Datum:</p>
 			    <input type="text" name="post_datum" required>
-			    <h3>Bestand: </h3>
+			    <p>Bestand:</p>
 			    <input type="file" name="post_file">
 			    <br><br>
 			    <input type="submit" value="Artikel toevoegen">

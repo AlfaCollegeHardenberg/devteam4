@@ -8,7 +8,7 @@ foreach ($_POST as $key => $item){
 
 $uploadedFile = $_FILES['post_file']['tmp_name'];
     $newFile = 'Content/' . $_FILES['post_file']['name'];
-    move_uploaded_file($uploadedImage, $newImage);
+    move_uploaded_file($uploadedFile, $newFile);
 
 $query = "INSERT INTO lesmaterialen (auteur, datum, bestand)
 VALUES ('$cleanData[post_naam]', '$cleanData[post_datum]', '$newFile')";
