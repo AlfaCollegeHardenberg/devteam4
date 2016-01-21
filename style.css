@@ -53,6 +53,7 @@ h1, h2, h3, h4 {
 
 #nav_header ul {
     margin: 0;
+    height: 20px;
 }
 
 #nav_header ul li:first-of-type {
