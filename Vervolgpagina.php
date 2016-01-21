@@ -18,7 +18,13 @@
     <div id="nav_header">
         <ul>
             <li><a class="home" href="#">Home</a></li>
-            <li><a class="wegwijzer" href="#">Wegwijzer</a></li>
+            <li>
+			<a class="wegwijzer" href="#">Wegwijzer</a>
+				<ul class="hidden">
+					<li><a href="#">Who We Are</a></li>
+					<li><a href="#">What We Do</a></li>
+				</ul>
+			</li>
             <li><a class="mijnSchool" href="#">Mijn school</a></li>
             <li><a class="programmas" href="#">Programma's</a></li>
         </ul>
