@@ -56,7 +56,7 @@ if (isset ($_SESSION['loggedin']) && $_SESSION['loggedin'] == true){
 <!-- Footer met footer afbeelding -->
 
     <footer>
-        <img class="footer" src="footer.png">
+        <img class="footer_img" src="footer.png">
     </footer>
 
 </body>
