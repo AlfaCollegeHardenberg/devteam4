@@ -1,0 +1,84 @@
+body{
+    max-width: 100%;
+	padding: 0px;
+	margin: 0 auto;
+}
+
+.logo{
+    margin: 2%;
+}
+
+#login{
+    padding: 5px;
+    width: 25%;
+    height: auto;
+    margin: auto;
+}
+
+.inlognaam{
+    margin-left: 14px;
+    margin-bottom: 2%;
+    width: 82.6%;
+    margin-top: 2%;
+}
+
+.wachtwoord{
+    width: 82.9%;
+    margin-bottom: 1%;
+    margin-left: 3px;
+}
+
+.login-button{
+    margin-left: 0%;
+}
+
+h1{
+    font-family: sans-serif;
+    color: #0B3B6C;
+}
+
+p{
+    font-family: sans-serif;
+    color: #508AB6;
+    font-size: 12px;
+}
+li {
+ font-style: none;
+    
+}
+a {
+    color: orange;
+}
+.footer{
+    width: 100%;
+	height: auto;
+	margin-top: -35px;
+	position: absolute;
+	padding: 0px;
+}
+
+@media only screen and (max-width: 768px),
+	(device-aspect-ratio: 2/3), 
+	(device-aspect-ratio: 40/71), 
+	(device-aspect-ratio: 375/667), 
+	(device-aspect-ratio: 3/4)  {
+    /* For mobile phones: */
+	
+    .footer {
+		display:none;
+    }
+	#login li {
+		display:none;
+	}
+	#login {
+		width: 95%;
+		float:left;
+	}
+	.logo {
+		width:55%;
+		float:left;
+	}
+	.inlognaam, .wachtwoord {
+		width: 50%;
+	}
+}

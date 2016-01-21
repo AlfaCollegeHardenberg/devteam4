@@ -1,0 +1,122 @@
+header {
+    border-bottom: 2px solid #06244b;
+    height: 80px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+body {
+    margin: 0px;
+}
+.inhoud {
+	padding: 40px;
+}
+.rareVormenBoven {
+    position: absolute;
+    top: -10px;
+    width: 100%;
+    height: 60px;
+}
+
+#logo_header {
+    margin-top: 10px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+#nav_header {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    position: absolute;
+    top: 62px;
+    left: 250px;
+}
+
+#nav_header ul li {
+    display: inline;
+    list-style-type: none;
+}
+
+#nav_header ul {
+    margin: 0;
+}
+
+#nav_header ul li:first-of-type {
+    margin-left: 0;
+}
+
+#nav_header ul li a {
+    font-family: Roboto;
+    text-decoration: none;
+    font-size: 21px;
+    padding: 5px 20px 5px 20px;
+    font-family: 'Roboto-italic', sans-serif;
+    font-weight: 300;
+}
+
+#nav_header ul li a:hover {
+    background-color: #06244b;
+    color: #FFF;
+}
+
+.home {
+    color: #d90808;
+}
+
+.wegwijzer {
+    color: #b54286;
+}
+
+.mijnSchool {
+    color: #ee8a06;
+}
+
+.programmas {
+    color: #002d72;
+}
+h1 {
+	margin-left: 5%;
+	font-family: 'Roboto-italic', sans-serif;
+	padding-top: 20px;
+	font-size: 22px;
+}
+caption {
+	padding-bottom: 20px;
+	font-size: 22px;
+	font-family: 'Roboto-italic', sans-serif;
+}
+.thead {
+	padding: 50px;
+}
+.demo {
+	border:1px solid #C0C0C0;
+	border-collapse:collapse;
+	padding:5px;
+	background-color:#E2E2E2;
+	}
+	.demo th {
+	text-align: left;
+	font-family: 'Roboto-italic', sans-serif;
+	border:1px solid #C0C0C0;
+	padding:15px;
+	background-color: #6EAAE6;
+	}
+	.demo td {
+	border:1px solid #C0C0C0;
+	padding:5px;
+	}
+	tr:nth-child(even) {
+	background-color: #f2f2f2;
+	}
+	th:nth-child(2) {
+	width: 300px;
+	}
+ul li a:hover + .hidden, .hidden:hover {
+	display: block;
+}
+ul li a:hover + .hidden, .hidden:hover {
+	display: block;
+}
