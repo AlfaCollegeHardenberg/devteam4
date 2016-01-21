@@ -313,14 +313,21 @@ ul li a:hover + .hidden, .hidden:hover {
 }
 
 .formulier {
-    width: 100%;
-    margin-left: 20px
+    width: 80%;
+    margin-left: 20px;
+    height: auto;
 }
 
 .formulier h1 {
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #b54286;
     padding-left: 30px;
     padding-right: 30px;
+    font-style: "Roboto-regular";
+    font-weight: 300;
+}
+
+.formulier h1:first-of-type {
+    border-bottom: 1px solid #b54286;
 }
 
 .formulier p {
@@ -329,4 +336,10 @@ ul li a:hover + .hidden, .hidden:hover {
 
 .text {
     width: 30%;
+    display: block;
+    margin-top: 20px;
+    height: 20px;
+    border-color: border 1px solid #002d72;
+    font-size: 12px;
+    font-style: "Roboto-regular";
 }
