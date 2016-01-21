@@ -1,5 +1,7 @@
 <?php
     require_once ("db-connect.php");
+    $page = 'one';
+    require_once('Vervolgpagina.php');
     session_start();
 ?>
 <!DOCTYPE html>
