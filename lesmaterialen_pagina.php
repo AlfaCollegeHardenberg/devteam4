@@ -66,7 +66,7 @@
 <div class="inhoud">
 <br>
 <br>
-<center><p>Vervolgpagina</p></center>
+<center><p>Lesmaterialen</p></center>
 </div>
 <footer>
 	 <img src="Afbeeldingen/footer.png">
