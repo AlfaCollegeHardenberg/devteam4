@@ -4,7 +4,7 @@ session_start();
     require_once "db-connect.php";
 
 if (isset ($_SESSION['loggedin']) && $_SESSION['loggedin'] == true){
-		echo "<a href='log-out.php'> Uitloggen </a> ";
+		echo "<a class="log-out" href='log-out.php'> Uitloggen </a> ";
 }
 ?>
 

@@ -45,8 +45,15 @@ p{
 }
 li {
  font-style: none;
-
 }
+
+.log-out {
+    font-family: Roboto;
+    text-decoration: none;
+    color: #d90808;
+    font-size: 12px;
+}
+
 a {
     color: orange;
 }
