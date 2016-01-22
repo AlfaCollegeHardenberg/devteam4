@@ -274,7 +274,7 @@ color: white;
 
 .active {
     background-color: #06244b;
-    color: white;    
+    color: white;
 }
 
 /*Style for dropdown links*/
@@ -348,4 +348,17 @@ ul li a:hover + .hidden, .hidden:hover {
 #submitje {
 	height: 30px;
 	width: 150px;
+}
+
+.download {
+    background-color: #002d72;
+    padding: 2px 21px;
+    color: white;
+    font-family: roboto;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+.download:hover {
+    background-color: #b54286;
 }
