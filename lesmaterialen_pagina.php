@@ -55,7 +55,7 @@
 </div>
 <a class="opleiding" href="#">Applicatie ontwikkelaar</a>
 <a class="informatie" href="informatie_pagina.php">Informatie</a>
-<a class="lesmaterialen" href="lesmaterialen_pagina.php">Lesmaterialen</a>
+<a class="lesmaterialen" href="materialen.php">Lesmaterialen</a>
 <a class="stage" href="stage_pagina.php">Stage (BPV)</a>
 <a class="roosters" href="rooster.php">Roosters</a>
 <a class="upload" href="uploadpagina.php">Bestanden uploaden</a>
