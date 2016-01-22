@@ -10,6 +10,16 @@
     <meta charset="UTF-8">
     <title>Actie Alfa College</title>
 <link rel="stylesheet" href="style.css">
+
+<!-- bjqs.css contains the *essential* css needed for the slider to work -->
+    <link rel="stylesheet" href="bjqs.css">
+
+    <!-- demo.css contains additional styles used to set up this demo page - not required for the slider --> 
+    <link rel="stylesheet" href="demo.css">
+
+    <!-- load jQuery and the plugin -->
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="js/bjqs-1.3.js"></script>
 <link href='https://fonts.googleapis.com/css?family=Roboto:300italic,400,400italic,700' rel='stylesheet' type='text/css'></head>
 <body>
 
@@ -48,15 +58,34 @@
     </div>
 </header>
 
-<div id="slider_afbeelding">
-    <div id="slider_tekst">
-        <h1>Welkom</h1>
-            <p>De nieuwe Actie van het Alfa College is online! </br>
-               Kijk gerust rond naar alle vernieuwingen!
-           </p>
-    </div>
-<img src="Afbeeldingen/sliderAfbeelding.png">
-</div>
+<!--  Outer wrapper for presentation only, this can be anything you like -->
+      <div id="banner-slide">
+	  
+	<ul class="bjqs">
+          <li><img src="img/banner01.jpg"></li>
+          <li><img src="img/banner02.jpg"></li>
+          <li><img src="img/banner03.jpg"></li>
+	</ul>
+	
+	        <!-- end Basic jQuery Slider -->
+
+      </div>
+      <!-- End outer wrapper -->
+      
+      <!-- attach the plug-in to the slider parent element and adjust the settings as required -->
+      <script class="secret-source">
+        jQuery(document).ready(function($) {
+          
+          $('#banner-slide').bjqs({
+            animtype      : 'slide',
+            height        : 500,
+            width         : 1903,
+            responsive    : true,
+            randomstart   : true
+          });
+          
+        });
+      </script>
 <a class="opleiding" href="#">Applicatie ontwikkelaar</a>
 <a class="informatie" href="informatie_pagina.php">Informatie</a>
 <a class="lesmaterialen" href="lesmaterialen_pagina.php">Lesmaterialen</a>
