@@ -48,7 +48,7 @@
 <form class="formulier"enctype="multipart/form-data" name="form" action="send-article.php" method="post">
 	<h1> Gegevens </h1>
 			    <input class="text" type="text" placeholder="Naam bijv: Bart Schrap" name="post_naam" required>
-			    <input class="text" type="text" placeholder="Datum bijv: 14-05-1996" name="post_datum" required>
+			    <input class="text" type="text" placeholder="Onderwerp bijv: Project" name="post_datum" required>
 	<h1> Bestand uploaden </h1>
 			    <input type="file" name="post_file">
 			    <br><br><br><br>
