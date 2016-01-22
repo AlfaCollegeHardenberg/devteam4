@@ -8,6 +8,7 @@
     <meta charset="UTF-8">
     <title>Actie Alfa College</title>
 <link rel="stylesheet" href="style.css">
+
 <link href='https://fonts.googleapis.com/css?family=Roboto:300italic,400,400italic,700' rel='stylesheet' type='text/css'></head>
 <body>
 

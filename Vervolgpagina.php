@@ -10,8 +10,21 @@
     <meta charset="UTF-8">
     <title>Actie Alfa College</title>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
 <link href='https://fonts.googleapis.com/css?family=Roboto:300italic,400,400italic,700' rel='stylesheet' type='text/css'></head>
 <body>
+
+<script type="text/javascript">
+      $(document).ready(function(){
+        $('.your-class').slick({
+          setting-name: setting-value
+        });
+      });
+</script>
 
 <header>
         <img class="rareVormenBoven" src="Afbeeldingen/raareVormenBoven.png">
@@ -49,14 +62,11 @@
     </div>
 </header>
 
-<div id="slider_afbeelding">
-    <div id="slider_tekst">
-        <h1>Welkom</h1>
-            <p>De nieuwe Actie van het Alfa College is online! </br>
-               Kijk gerust rond naar alle vernieuwingen!
-           </p>
-    </div>
-<img src="Afbeeldingen/sliderAfbeelding.png">
+<div class="slider">
+  <div><img src="Afbeeldingen/sliderAfbeelding.png"></div>
+  <div>your content</div>
+  <div>your content</div>
+</div>
 </div>
 <a class="opleiding" href="#">Applicatie ontwikkelaar</a>
 <a class="informatie" href="informatie_pagina.php">Informatie</a>
