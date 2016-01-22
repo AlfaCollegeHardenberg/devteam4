@@ -21,12 +21,11 @@
 <?php
     $nav = "<div id=\"nav_header\">
         <ul>
-            <li><a ".(($page == 'one') ? 'class="active"' : '')." class=\"home\" href=\"Vervolgpagina.php\">Home</a>/</li>
-            <li><a class=\"home\" href=\"#\">Home</a></li>
+            <li><a ".(($page == 'one') ? 'class="active"' : '')." class=\"home\" href=\"Vervolgpagina.php\">Home</a></li>
             <li><a class=\"wegwijzer\" href=\"#\">Wegwijzer</a>
 		<ul class=\"hidden\">
-			<li><a href=\"#\">Lesmaterialen</a></li>
-			<li><a href=\"#\">Roosters</a></li>
+			<li><a href=\"lesmaterialen_pagina.php\">Lesmaterialen</a></li>
+			<li><a href=\"roosters.php\">Roosters</a></li>
 		</ul>
 			</li>
             <li><a class=\"mijnSchool\" href=\"#\">Mijn school</a></li>
@@ -38,6 +37,7 @@
         </ul>
     </div>";
  ?>
+ <?php echo $nav; ?>
     <div id="login_gegevens">
        <?php
         echo "<a> Ingelogd als, " . $_SESSION['username'];

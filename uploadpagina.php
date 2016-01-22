@@ -16,14 +16,26 @@
     <div id="logo_header">
         <img src="Afbeeldingen/actieLogo.png">
     </div>
-    <div id="nav_header">
+<?php
+    $nav = "<div id=\"nav_header\">
         <ul>
-            <li><a class="home" href="Vervolgpagina.php">Home</a></li>
-            <li><a class="wegwijzer" href="#">Wegwijzer</a></li>
-            <li><a class="mijnSchool" href="#">Mijn school</a></li>
-            <li><a class="programmas" href="#">Programma's</a></li>
+            <li><a ".(($page == 'one') ? 'class="active"' : '')." class=\"home\" href=\"Vervolgpagina.php\">Home</a></li>
+            <li><a class=\"wegwijzer\" href=\"#\">Wegwijzer</a>
+		<ul class=\"hidden\">
+			<li><a href=\"lesmaterialen_pagina.php\">Lesmaterialen</a></li>
+			<li><a href=\"roosters.php\">Roosters</a></li>
+		</ul>
+			</li>
+            <li><a class=\"mijnSchool\" href=\"#\">Mijn school</a></li>
+            <li><a class=\"programmas\" href=\"#\">Programma's</a>
+		<ul class=\"hidden\">
+			<li><a href=\"#\">Koken met Denis</a></li>
+		</ul>
+			</li>
         </ul>
-    </div>
+    </div>";
+ ?>
+ <?php echo $nav; ?>
     <div id="login_gegevens">
        <?php
         echo "<a> Ingelogd als, " . $_SESSION['username'];
@@ -40,12 +52,14 @@
 			    <input class="text" type="text" placeholder="Datum bijv: 14-05-1996" name="post_datum" required>
 	<h1> Bestand uploaden </h1>
 			    <input type="file" name="post_file">
-			    <br><br>
-			    <input type="submit" value="Artikel toevoegen">
+			    <br><br><br><br>
+			    <input type="submit" value="Upload bestand" id="submitje">
 </form>
 
 
 <footer>
+	 <img src="Afbeeldingen/footer.png">
+	 <p>&copy;Devteam4</p>
 </footer>
 </body>
 </html>

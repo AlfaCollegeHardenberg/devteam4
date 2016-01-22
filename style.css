@@ -345,3 +345,7 @@ ul li a:hover + .hidden, .hidden:hover {
     font-size: 12px;
     font-style: "Roboto-regular";
 }
+#submitje {
+	height: 30px;
+	width: 150px;
+}
