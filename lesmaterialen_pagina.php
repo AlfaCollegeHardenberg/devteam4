@@ -18,6 +18,7 @@
             <img src="Afbeeldingen/actieLogo.png">
         </a>
     </div>
+    <div id="nav_header">
         <ul>
             <li><a class="home" href="Vervolgpagina.php">Home</a>
             <li><a class="wegwijzer\" href="#">Wegwijzer</a>x
