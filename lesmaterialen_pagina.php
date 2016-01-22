@@ -34,7 +34,7 @@
 		</ul>
 			</li>
         </ul>
-    </div>";
+    </div>
     <div id="login_gegevens">
        <?php
         echo "<a> Ingelogd als, " . $_SESSION['username'];
