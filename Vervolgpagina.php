@@ -14,7 +14,7 @@
 <!-- bjqs.css contains the *essential* css needed for the slider to work -->
     <link rel="stylesheet" href="bjqs.css">
 
-    <!-- demo.css contains additional styles used to set up this demo page - not required for the slider --> 
+    <!-- demo.css contains additional styles used to set up this demo page - not required for the slider -->
     <link rel="stylesheet" href="demo.css">
 
     <!-- load jQuery and the plugin -->
@@ -60,22 +60,22 @@
 
 <!--  Outer wrapper for presentation only, this can be anything you like -->
       <div id="banner-slide">
-	  
+
 	<ul class="bjqs">
           <li><img src="img/banner01.jpg"></li>
           <li><img src="img/banner02.jpg"></li>
           <li><img src="img/banner03.jpg"></li>
 	</ul>
-	
+
 	        <!-- end Basic jQuery Slider -->
 
       </div>
       <!-- End outer wrapper -->
-      
+
       <!-- attach the plug-in to the slider parent element and adjust the settings as required -->
       <script class="secret-source">
         jQuery(document).ready(function($) {
-          
+
           $('#banner-slide').bjqs({
             animtype      : 'slide',
             height        : 500,
@@ -83,12 +83,12 @@
             responsive    : true,
             randomstart   : true
           });
-          
+
         });
       </script>
 <a class="opleiding" href="#">Applicatie ontwikkelaar</a>
 <a class="informatie" href="informatie_pagina.php">Informatie</a>
-<a class="lesmaterialen" href="lesmaterialen_pagina.php">Lesmaterialen</a>
+<a class="lesmaterialen" href="materialen.php">Lesmaterialen</a>
 <a class="stage" href="stage_pagina.php">Stage (BPV)</a>
 <a class="roosters" href="rooster.php">Roosters</a>
 <a class="upload" href="uploadpagina.php">Bestanden uploaden</a>
