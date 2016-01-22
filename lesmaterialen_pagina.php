@@ -1,6 +1,8 @@
 <?php
     require_once ("db-connect.php");
     session_start();
+    $page = 'one';
+    require_once('Vervolgpagina.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
