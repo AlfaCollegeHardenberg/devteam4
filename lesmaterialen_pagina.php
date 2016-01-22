@@ -1,8 +1,6 @@
 <?php
     require_once ("db-connect.php");
     session_start();
-    $page = 'one';
-    require_once('Vervolgpagina.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -21,7 +19,6 @@
         </a>
     </div>
         <ul>
-<<<<<<< HEAD
             <li><a class="home" href="Vervolgpagina.php">Home</a>
             <li><a class="wegwijzer\" href="#">Wegwijzer</a>x
 		<ul class="hidden">
@@ -34,19 +31,6 @@
 		<ul class="hidden">
 			<li><a href="#">Koken met Denis</a></li>
 		</ul>
-=======
-            <li><a ".(($page == 'one') ? 'class="active"' : '')." class=\"home\" href=\"Vervolgpagina.php\">Home</a></li>
-            <li><a class=\"wegwijzer\" href=\"#\">Wegwijzer</a>
-			</li>
-            <li><a class=\"mijnSchool\" href=\"#\">Mijn school</a>
-		<ul class=\"hidden\">
-			<li><a href=\"lesmaterialen_pagina.php\">Lesmaterialen</a></li>
-			<li><a href=\"rooster.php\">Roosters</a></li>
-			<li><a href=\"#\">Mijn contactgegevens</a></li>
-			<li><a href=\"#\">Mijn profiel</a></li>
-		</ul></li>
-            <li><a class=\"programmas\" href=\"#\">Programma's</a>
->>>>>>> 234dc0b2e3368dd9f2460f74bda9ffdcd02f77a4
 			</li>
         </ul>
     </div>";
@@ -81,7 +65,7 @@
 <center><p>Lesmaterialen</p></center>
 </div>
 <footer>
-	 <img src="footer.png">
+	 <img src="Afbeeldingen/footer.png">
 	 <p>&copy;Devteam4</p>
 </footer>
 </body>
