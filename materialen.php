@@ -1,11 +1,7 @@
 <?php
     require_once ("db-connect.php");
-<<<<<<< HEAD
     session_start();
 ?>
-=======
-?>   
->>>>>>> b0694ef8def0c3a3dc29a5d4851de59c5d2baa4f
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,15 +34,15 @@
 </header>
     <?php
     $sql = mysql_query("SELECT * FROM lesmaterialen", $connect);
-    
+
     while($results = mysql_fetch_array($sql))
     {
         echo $results['auteur'] . " " . $results['datum'];
-        echo ' <a href="download.php?id='.$results['id'] . '">Download bestand</a><br><hr><br>';
+        echo ' <a class="download" href="download.php?id='.$results['id'] . '">Download bestand</a><br><hr><br>';
     }
-    
+
     ?>
-    
+
 <footer>
 </footer>
 </body>
