@@ -28,7 +28,7 @@
 		<ul class=\"hidden\">
 			<li><a href=\"lesmaterialen_pagina.php\">Lesmaterialen</a></li>
 			<li><a href=\"rooster.php\">Roosters</a></li>
-				<li><a href=\"#\">Mijn contactgegevens</a></li>
+			<li><a href=\"#\">Mijn contactgegevens</a></li>
 			<li><a href=\"#\">Mijn profiel</a></li>
 		</ul></li>
             <li><a class=\"programmas\" href=\"#\">Programma's</a>
@@ -65,8 +65,10 @@
 <div class="inhoud">
 <br>
 <br>
-<center><p>Informatie pagina</p></center>
-</div>
+<center>
+<iframe src="https://roosters.xedule.nl/OrganisatorischeEenheid/Attendees/26?Code=Hardenberg&OrgId=6" width="90%" height="700px"></iframe></center>
+</div><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
 <footer>
 	 <img src="footer.png">
 	 <p>&copy;Devteam4</p>
