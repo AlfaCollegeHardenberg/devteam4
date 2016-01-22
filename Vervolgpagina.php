@@ -25,16 +25,15 @@
         <ul>
             <li><a ".(($page == 'one') ? 'class="active"' : '')." class=\"home\" href=\"Vervolgpagina.php\">Home</a></li>
             <li><a class=\"wegwijzer\" href=\"#\">Wegwijzer</a>
-		<ul class=\"hidden\">
-			<li><a href=\"#\">Lesmaterialen</a></li>
-			<li><a href=\"#\">Roosters</a></li>
-		</ul>
 			</li>
-            <li><a class=\"mijnSchool\" href=\"#\">Mijn school</a></li>
-            <li><a class=\"programmas\" href=\"#\">Programma's</a>
+            <li><a class=\"mijnSchool\" href=\"#\">Mijn school</a>
 		<ul class=\"hidden\">
-			<li><a href=\"#\">Koken met Denis</a></li>
-		</ul>
+			<li><a href=\"lesmaterialen_pagina.php\">Lesmaterialen</a></li>
+			<li><a href=\"rooster.php\">Roosters</a></li>
+			<li><a href=\"#\">Mijn contactgegevens</a></li>
+			<li><a href=\"#\">Mijn profiel</a></li>
+		</ul></li>
+            <li><a class=\"programmas\" href=\"#\">Programma's</a>
 			</li>
         </ul>
     </div>";
@@ -71,7 +70,7 @@
 <center><p>Home pagina</p></center>
 </div>
 <footer>
-	 <img src="Afbeeldingen/footer.png">
+	 <img src="footer.png">
 	 <p>&copy;Devteam4</p>
 </footer>
 </body>
