@@ -39,6 +39,7 @@ h1, h2, h3, h4 {
 }
 
 #nav_header {
+	z-index: 999;
     width: auto;
     height: auto;
 	margin-left: 460px;
@@ -115,6 +116,7 @@ h1, h2, h3, h4 {
 }
 
 #slider_afbeelding {
+z-index: 1;
 }
 
 #slider_tekst {
