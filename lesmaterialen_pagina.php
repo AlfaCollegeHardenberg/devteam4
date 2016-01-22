@@ -23,7 +23,7 @@
             <li><a class="home" href="Vervolgpagina.php">Home</a>
             <li><a class="wegwijzer" href="#">Wegwijzer</a>x
 		<ul class="hidden">
-			<li><a href="materialen.php">Lesmaterialen</a></li>
+			<li><a href="lesmaterialen_pagina.php">Lesmaterialen</a></li>
 			<li><a href="roosters.php">Roosters</a></li>
 		</ul>
 			</li>
@@ -55,7 +55,7 @@
 </div>
 <a class="opleiding" href="#">Applicatie ontwikkelaar</a>
 <a class="informatie" href="informatie_pagina.php">Informatie</a>
-<a class="lesmaterialen" href="materialen.php">Lesmaterialen</a>
+<a class="lesmaterialen" href="lesmaterialen_pagina.php">Lesmaterialen</a>
 <a class="stage" href="stage_pagina.php">Stage (BPV)</a>
 <a class="roosters" href="rooster.php">Roosters</a>
 <a class="upload" href="uploadpagina.php">Bestanden uploaden</a>
@@ -66,7 +66,7 @@
 <center><p>Lesmaterialen</p></center>
 </div>
 <footer>
-	 <img src="Afbeeldingen/footer.png">
+	 <img src="footer.png">
 	 <p>&copy;Devteam4</p>
 </footer>
 </body>
