@@ -21,7 +21,7 @@
     <div id="nav_header">
         <ul>
             <li><a class="home" href="Vervolgpagina.php">Home</a>
-            <li><a class="wegwijzer\" href="#">Wegwijzer</a>x
+            <li><a class="wegwijzer" href="#">Wegwijzer</a>x
 		<ul class="hidden">
 			<li><a href="lesmaterialen_pagina.php">Lesmaterialen</a></li>
 			<li><a href="roosters.php">Roosters</a></li>
